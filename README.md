@@ -359,11 +359,6 @@ if (diffPercentage < 5) return; // DROP IT — saves API costs on idle screens
 - [ ] `mentor.py` — code quality gating
 - [ ] `sentinel.py` — proactive monitoring
 
-### Phase 7 — Polish (Week 8)
-- [ ] End-to-end demo: "build me a chat app"
-- [ ] Edge case handling + error recovery
-- [ ] Full documentation
-- [ ] Optional: NEXUS (MCP gateway) as Pillar 16
 
 ---
 
