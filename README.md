@@ -310,54 +310,6 @@ if (diffPercentage < 5) return; // DROP IT — saves API costs on idle screens
 
 ---
 
-## 8. BUILD PLAN (Phased Roadmap)
-
-### Phase 1 — Foundation (Week 1)
-- [ ] Create `genesis-text/` project folder
-- [ ] Electron shell: `main.js`, `preload.js`, `motor_proxy.js`
-- [ ] React frontend with Vite + TypeScript
-- [ ] `ChatPanel.tsx` — text input/output, streaming display
-- [ ] `ScreenMirror.tsx` — screen capture display
-- [ ] WebSocket connection (frontend ↔ backend)
-- [ ] FastAPI backend `/ws/stream` endpoint
-- [ ] `observe.py` — parse `"chat"` + `"frame"` payloads
-- [ ] Screen capture at 1 FPS with pixel diffing
-
-### Phase 2 — The Brain (Week 2)
-- [ ] `cortex.py` — Gemini 2.0 Flash client
-- [ ] `decide.py` — streaming function calling
-- [ ] Full OODA loop: Observe → Orient → Decide → Act
-- [ ] Tool registry: filesystem + terminal tools
-- [ ] Text streaming to ChatPanel
-- [ ] `anima.py` — personality in text responses
-
-### Phase 3 — The Hands (Week 3)
-- [ ] `motor_proxy.js` — mouse via nut.js, keyboard via nut.js, terminal via node-pty
-- [ ] `motor.py` — Python client to proxy
-- [ ] Browser automation via Playwright
-- [ ] Filesystem tools: read/write/delete
-- [ ] `aegis.py` — command blacklist + path sandbox
-
-### Phase 4 — Memory & Safety (Week 4)
-- [ ] `hippocampus/` — ChromaDB vector store
-- [ ] RAG pipeline: embed + recall
-- [ ] `orient.py` context injection
-- [ ] `chronos.py` — snapshot before every action
-- [ ] "undo that" / "go back to before X" chat commands
-
-### Phase 5 — Full Dashboard (Week 5)
-- [ ] Full Aegis: all 8 security gates + permission modes
-- [ ] `MetricsPanel.tsx` — token/cost tracker
-- [ ] `ChronosTimeline.tsx` — visual undo/redo
-- [ ] `EmergencyStop.tsx` — kill switch
-- [ ] `AgentThoughts.tsx` — real-time Cortex reasoning
-
-### Phase 6 — Advanced Pillars (Weeks 6–7)
-- [ ] `hive/` — Swarm agents (Director, Coder, Tester, Designer)
-- [ ] `bazaar.py` — agent marketplace + hot-loading
-- [ ] `darwin` — self-tool-generation via `tools/registry.py`
-- [ ] `mentor.py` — code quality gating
-- [ ] `sentinel.py` — proactive monitoring
 
 
 ---
@@ -767,5 +719,4 @@ gitpython         # Chronos git integration
 
 ---
 
-*Genesis V2 Text Edition — Omnibus Knowledge Base*
-*Last Updated: 2026-02-27 — Expanded with Real Security Architecture*
+
