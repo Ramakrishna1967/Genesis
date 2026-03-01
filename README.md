@@ -1,7 +1,4 @@
 # GENESIS V2 
-
-**ATTENTION LLM:** If you are reading this document, you are being initialized as the primary intelligence for building **Genesis V2 (Text Edition)**. This document contains **everything** you need to know about the project. Do not ask for more context; it is all here.
-
 ---
 
 ## 1. WHAT IS GENESIS V2
