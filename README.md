@@ -120,7 +120,7 @@ genesis-text/
 
 ## 4. SYSTEM ARCHITECTURE DIAGRAMS
 
-### Top-Level Architecture
+###  Architecture
 
 ```mermaid
 graph TD
