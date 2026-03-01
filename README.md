@@ -5,7 +5,7 @@
 
 ---
 
-## 1. WHAT IS GENESIS V2 (TEXT EDITION)?
+## 1. WHAT IS GENESIS V2
 
 Genesis V2 is an autonomous AI agent that runs locally on the user's machine. It acts as a "digital employee." It possesses:
 
