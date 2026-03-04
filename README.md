@@ -160,7 +160,7 @@ graph TD
     Actor -- "Result" --> Observer
 ```
 
-### The Text-Only OODA Flow (Sequence)
+### The Text-Only OODA Flow 
 
 ```mermaid
 sequenceDiagram
