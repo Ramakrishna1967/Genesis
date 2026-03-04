@@ -1,4 +1,4 @@
-# GENESIS V2 
+# GENESIS V2
 ---
 
 ## 1. WHAT IS GENESIS V2
